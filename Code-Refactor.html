@@ -26,8 +26,9 @@
         </div>
     </header>
     <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
+    <section class="content">
+        <!--div id was not added before so I added div id so that the a tag would be linked to this; additionally changed all classes that individually specified SEO, Online Reputation Management, and Social Media Marketing into one class called information -->
+        <div id="search-engine-optimization" class="information">
             <img src="./assets/images/search-engine-optimization.jpg" alt="SEO plan in notebook" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -36,7 +37,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div id="online-reputation-management" class="information">
             <img src="./assets/images/online-reputation-management.jpg"
                 alt="Online Reputation Management laptop with graph and reputation heading" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -46,7 +47,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div id="social-media-marketing" class="information">
             <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing brainstorming at table"
                 class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -56,7 +57,7 @@
                 increase your lead generation.
             </p>
         </div>
-    </div>
+    </section>
     <!--Changed div class="benefits" to aside-->
     <aside>
         <!--Each aside element (lead generation, brand awareness, cost management) did not need a separate div class because the css elements that were applied to the aside images, h3's, and p tags were respectively all the same as the others.-->

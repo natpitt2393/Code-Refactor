@@ -101,8 +101,8 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/* Changed all classes that individually specified SEO, Online Reputation Management, and Social Media Marketing into one class called information. Did this to consolidate three identical codes into one */
+.information {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,48 +110,12 @@ aside img {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* changed div class="content" to section class="content and then consolidated all matching code into one line */
+section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

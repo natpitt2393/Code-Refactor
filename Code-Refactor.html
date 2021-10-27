@@ -11,7 +11,8 @@
     <!--Changed div class="header" to semantic tag of header-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- changed div to semantic tag of nav-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,13 +24,14 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
     <!-- Changed div class="hero" to semantic text of figure -->
     <figure></figure>
     <section class="content">
         <!--div id was not added before so I added div id so that the a tag would be linked to this; additionally changed all classes that individually specified SEO, Online Reputation Management, and Social Media Marketing into one class called information -->
         <div id="search-engine-optimization" class="information">
+            <!-- Added alt images to each image used here-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="SEO plan in notebook" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -63,21 +65,22 @@
     <aside>
         <!--Each aside element (lead generation, brand awareness, cost management) did not need a separate div class because the css elements that were applied to the aside images, h3's, and p tags were respectively all the same as the others.-->
         <h3>Lead Generation</h3>
-        <img src="./assets/images/lead-generation.png" />
+        <!-- alt for images added -->
+        <img src="./assets/images/lead-generation.png" alt="Money funnel" />
         <p>
             Inbound strategies for lead generation require less work for your business, bringing customers directly to
             your website.
         </p>
         <br>
         <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png" />
+        <img src="./assets/images/brand-awareness.png" alt="Light bulb/idea being formed" />
         <p>
             Users find your business through paid and organic searches, increasing the search ranking and visibility for
             your business.
         </p>
         <br>
         <h3>Cost Management</h3>
-        <img src="./assets/images/cost-management.png" />
+        <img src="./assets/images/cost-management.png" alt="Money and gears" />
         <p>
             As the search ranking for your business increases, your advertising costs decrease, and you no longer
             need to advertise your page.

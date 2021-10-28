@@ -4,8 +4,7 @@ A refactoring project for HTML and CSS code
 
 Contributors: Nathaniel (Nat) Epstein
 
-Technologies Used: HTML 5
-             CSS 3
+Technologies Used: HTML 5, CSS 3
 
 Description: I switched all div classes, which are not semantic tags used in HTML 5 protocol, to proper semantic tags. I accordingly changed names of classes in CSS so that the styles would be applied.
 
